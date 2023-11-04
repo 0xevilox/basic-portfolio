@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+li {
+  list-style: none;
+}
+button{
+  cursor: pointer;
+}
+.line-breaker{
+  border-top:3px solid black ;
+  padding: 40px;
+}
+.line-breaker1{
+  border-top:3px solid black ;
+  margin-top: 100px;
+}
+.CTA-btn {
+  background: #4a92ff;
+  width: 130px;
+  height: 65px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  bottom: 20px;
+}
+.nav-links {
+  display: flex;
+  position: absolute;
+  left: 1000px;
+  top: 61px;
+  gap: 20px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  justify-content: end;
+
+}
+
+.header-img {
+  position: relative;
+}
+.logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.logo {
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 64px;
+  margin-left: 143px;
+}
+.profile-box {
+  width: 449px;
+  height: 483px;
+  flex-shrink: 0;
+  border-radius: 48px;
+  background: #16cb8c;
+  margin: auto;
+  position: relative;
+  bottom: 300px;
+}
+.pro {
+  margin: auto;
+  border-radius: 250px;
+  width: 290px;
+  height: 290px;
+}
+.profile-circle {
+  width: 305px;
+  height: 305px;
+  flex-shrink: 0;
+  border-radius: 200px;
+  border: 7px #fff solid;
+  margin: auto;
+  position: relative;
+  bottom: 600px;
+}
+.social-ic {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  padding: 45px;
+}
+.fb,
+.ins,
+.linkd {
+  width: 87px;
+  height: 85px;
+  border-radius: 200px;
+  border: 3px white solid;
+  cursor: pointer;
+}
+.name {
+  padding-top: 20px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+.role {
+  padding-top: 11px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  margin-top: 200px;
+}
+.facebook,
+.instagram,
+.linkedin {
+  padding: 19px;
+}
+.about {
+  width: 297px;
+  height: 74px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.ab-me {
+  width: 1046px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0.3px;
+}
+.about-me-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ph,
+.em,
+.loc {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 30px;
+}
+.p-head {
+  flex-shrink: 0;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.top-skill {
+  flex-shrink: 0;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  left: 200px;
+}
+span {
+  color: #16cb8c;
+}
+
+.skil-1,
+.skill-2,
+.skill-3,
+.skill-4,
+.skill-5 {
+  width: 69px;
+  height: 72px;
+  background: #d9d9d9;
+  margin-left: 10px;
+  position: relative;
+  top: 60px;
+  right: 40px;
+  padding: 10px;
+}
+.openn {
+  position: relative;
+  right: 35px;
+}
+.opencv {
+  padding-top: 10px;
+  padding-left: 2px;
+}
+.keras {
+  position: relative;
+  right: 15px;
+  bottom: 5px;
+}
+.personal-details {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+.details {
+  margin-right: 190px;
+}
+.about-logo {
+  width: 71px;
+  height: 72px;
+  flex-shrink: 0;
+  background: #1e1e1e;
+  margin-left: 10px;
+}
+.about {
+  margin-left: 60px;
+}
+.about-logo {
+  padding: 13px;
+  margin-bottom: 30px;
+}
+.cv-btn {
+  width: 267px;
+  height: 79px;
+  flex-shrink: 0;
+  background-color: #fff;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: 2px black solid;
+}
+.cv-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 81px;
+}
+.work-1,
+.work-2,
+.work-3 {
+  width: 312px;
+  height: 347px;
+  flex-shrink: 0;
+  border-radius: 65px;
+  background: #d9d9d9;
+  margin-top: 100px;
+}
+.pro-1 {
+  padding: 50px;
+}
+.work-head {
+  width: 671px;
+  height: 74px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 100px;
+  margin: auto;
+  position: relative;
+  left: 250px;
+}
+.work-container {
+  display: flex;
+  justify-content: center;
+  gap: 49px;
+}
+
+.btn-view-more {
+  width: 159px;
+  height: 55px;
+  flex-shrink: 0;
+  background-color: #16cb8c;
+  border-radius: 200px;
+  border: none;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 70px;
+}
+
+.CTA-box {
+  width: 1160px;
+  height: 171px;
+  flex-shrink: 0;
+  background: #d9d9d9;
+}
+.CTA-Colb {
+  width: 738px;
+  height: 80px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+.btn-hire {
+  width: 230px;
+  height: 78px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 200px;
+  background: #4a92ff;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  margin-top: 170px;
+}
+.CTA-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.footer-content {
+  margin-top: 173px;
+}
+.foot-1,
+.credits {
+  text-align: center;
+  position: relative;
+  top: 100px;
+  padding: 5px;
+}
+.foot-1 {
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.credits {
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
