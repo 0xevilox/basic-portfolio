@@ -1,0 +1,29 @@
+@media only screen and (max-device-width: 800px) {
+  .header-img,.footer-img {
+    width: 150%;
+    height: 200%;
+  }
+  .profile{
+    position: relative;
+    left: 250px;
+  }
+  .line-breaker,.line-breaker1{
+    width: 150%;
+  }
+  .about-me-content{
+    position: relative;
+    left: 230px;
+  }
+  .personal-details,.cv-container,.work-container,.box{
+    position: relative;
+    left: 200px;
+  }
+  .work-head{
+    position: relative;
+    left: 500px;
+  }
+  .foot-1,.credits{
+    margin-left: 500px;
+  }
+
+}
